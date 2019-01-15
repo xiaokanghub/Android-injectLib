@@ -8,3 +8,4 @@ LOCAL_CFLAGS += -pie -fPIE
 LOCAL_LDFLAGS += -pie -fPIE 
 LOCAL_LDLIBS += -L$(SYSROOT)/usr/lib -llog
 include $(BUILD_EXECUTABLE)
+#for inject-script
